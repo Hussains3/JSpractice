@@ -1,0 +1,6 @@
+DOM (document)
+---------------------
+The Document Object Model  is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document.
+
+document also have a parent called windows.
+windows  refers to the browser.
