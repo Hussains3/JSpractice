@@ -1,0 +1,269 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@Hussains3
+rasel0490 /
+javascript_tutorial
+
+1
+0
+
+    0
+
+Code
+Issues 0
+Pull requests 0
+Actions
+Projects 0
+Wiki
+Security
+Insights
+javascript_tutorial/public_html/dom_manipulation/dom_selectors.html
+@rasel0490 rasel0490 dom 8326823 23 hours ago
+253 lines (224 sloc) 12.2 KB
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Dom Selectors</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="../css/vendor.bundle.addons.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="../images/favicon.png" />
+    </head>
+    <body>
+        
+        <div class="container-scroller">
+           <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
+        <a class="navbar-brand brand-logo" href="../index.html">
+          <img src="../images/logo.svg" alt="logo">
+        </a>
+        <a class="navbar-brand brand-logo-mini" href="index.html">
+          <img src="../images/logo-mini.svg" alt="logo">
+        </a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center">
+        <ul class="navbar-nav navbar-nav-left header-links d-none d-md-flex">
+          <li class="nav-item">
+            <a href="../js_basic/index.html" class="nav-link">Basic</a>
+          </li>
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link"> Dom Manipulation</a>
+          </li>
+          <li class="nav-item">
+            <a href="../advance_js/index.html" class="nav-link">Advance Javascript</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item dropdown d-none d-xl-inline-block">
+            <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+              <span class="profile-text">Hello, Rasel Ahsan !</span>
+              <img class="img-xs rounded-circle" src="../images/55633.jpg" alt="Profile image">
+            </a>
+            
+          </li>
+        </ul>
+      </div>
+    </nav>
+            <div class="container-fluid page-body-wrapper">
+                <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item nav-profile">
+            <div class="nav-link">
+              <div class="user-wrapper">
+                <div class="profile-image">
+                  <img src="../images/55633.jpg" alt="profile image">
+                </div>
+                <div class="text-wrapper">
+                  <p class="profile-name">Rasel Ahsan</p>
+                  <div>
+                    <small class="designation text-muted">Admin</small>
+                    <span class="status-indicator online"></span>
+                  </div>
+                </div>
+              </div>
+                <a class="btn btn-success btn-block" href="dom_selectors.html">
+                <i class="menu-icon fas fa-redo-alt"></i> Refresh</a>
+             
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">
+             <i class="menu-icon fa fa-tachometer-alt"></i> Dashboard</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="dom_selectors.html"> <i class="menu-icon fa fa-edit"></i>  Dom Selectors</a>
+            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="event.html">
+             <i class="menu-icon fa fa-random"></i> Dom Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bg_generator.html">
+             <i class="menu-icon fa fa-image"></i> Background Generator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="menu-icon fa fa-sign-out-alt"></i> Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="menu-icon fa fa-sign-out-alt"></i> Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="menu-icon fa fa-sign-out-alt"></i> Link</a>
+          </li>
+        </ul>
+      </nav>
+                 <div class="main-panel">
+                     <div class="content-wrapper">
+                         <div class="row">
+                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 grid-margin stretch-card">
+                                <div class="card card-statistics">
+                                    <div class="card-body">
+                                        <h3>Shopping List</h3>
+                                        <p id="first">Get it done today</p>
+                                        <p class="second"> No Excuse</p>
+                                        <ul>
+                                            <li random="23">Asia</li>
+                                            <li>Africa</li>
+                                            <li>Europe</li>
+                                            <li>America</li>
+                                        </ul>
+                                        
+                                       
+                        
+                                    </div>
+                                </div>
+                            </div>
+                             
+                             
+                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 grid-margin stretch-card">
+                                <div class="card card-statistics">
+                                    <div class="card-body">
+                                         <h3>DOM Selectors</h3>
+                                         <div>
+                                           <p>getElementsByTagName</p>
+                                            <p>getElementsByClassName</p>
+                                            <p>getElementById</p>  
+                                         </div> 
+                                         <div>
+                                             <p>querySelector</p>
+                                           <p>querySelectorAll</p>     
+                                         </div>
+                                         <div>
+                                             <p>getAttribute</p>
+                                             <p>setAttribute</p>
+                                         </div>
+                                         <div>
+                                             <p>##Changing Styles</p>
+                                             <p>style.{property} //ok</p>
+                                         </div>
+                                         <div>
+                                             <p>className //best</p>
+                                             <p>classList //best</p>
+                                         </div>
+                                         <div>
+                                             <p>classList.add</p>
+                                             <p>classList.remove</p>
+                                             <p>classList.toggle</p>   
+                                         </div>
+                                         <div>
+                                             <p>##Bonus</p>
+                                             <p>innerHTML //DANGEROUS</p>  
+                                         </div>
+                                         <div>
+                                             <p>parentElement</p>
+                                             <p>children</p>  
+                                         </div>
+                                         <p>##It is important to CACHE selectors in variables</p>
+                                    </div>
+                                </div>
+                            </div>
+                         
+                        </div><!--row-->  
+                        <div class="row">
+                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 grid-margin stretch-card">
+                                <div class="card card-statistics">
+                                    <div class="card-body">
+                 
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 grid-margin stretch-card">
+                                <div class="card card-statistics">
+                                    <div class="card-body">
+                 
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                       </div><!--row-->
+                            
+                         
+                     </div> <!--content-wrapper-->
+                     
+                     <footer class="footer">
+          <div class="container-fluid clearfix">
+            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2018
+              <a href="#" target="_blank">Rasel Ahsan</a>. All rights reserved.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted &amp; made with
+              <i class="mdi mdi-heart text-danger"></i>
+            </span>
+          </div>
+        </footer>
+ 
+                </div> <!-- main-panel ends -->
+            </div>        
+     
+     
+    </div>
+    <h4>InnerHtml</h4>
+    <script>
+        document.getElementByTagName("");
+        //add attribute
+        document.querySelector("li").setAttribute("random", "500");
+        //ans: <li random="500">Asia</li>
+        
+        //add css specipic selector
+        document.querySelector("h3").style.color ="blue";
+        
+        //Adding class base on id
+        var title= document.getElementById("first");
+        title.className= "headding";
+        
+        //view classlist and add class spacific target selector
+        document.querySelector("li").classList.add("coolTitle");
+        
+        //view classlist and remove class spacific target selector
+        document.querySelector("li").classList.remove("coolTitle");
+        
+        //view classlist and add toggle spacific target selector
+        document.querySelector("h3").classList.toggle("coolTitle");
+        
+        //text added by innerHtml
+        document.querySelector("h4").innerHTML = "<em>Insert by InnerHTML</em>";
+        
+        //view child iteam
+        document.querySelectorAll("li")[2];
+        
+        //view parent element
+        document.querySelectorAll("li")[1].parentElement;
+    </script>
+    </body>
+</html>
