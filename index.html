@@ -1,152 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href='https://use.fontawesome.com/releases/v5.7.2/css/all.css'>
-    
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
 
-    <title>LearnJS</title>
-</head>
-<body style="background: #6c757d;">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  </head>
+  <body>
+        <header>
+            <!-- Just an image -->
+                <nav class="navbar navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html">
+                    <img src="images/js_yellow.png" width="30" height="30" alt="">
+                    JavaScript
+                    </a>
+                </nav>
+        </header>
+        <main>
 
-    <div class="row d-flex justify-content-center mt-100 mb-100" >
-        <div class="col-lg-6">
-            <div class="card">
-                <div class="card-body text-center">
-                    <h4 class="card-title m-b-0">Java Script</h4>
+            <!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
+
+            <section class="pricing py-5">
+                <div class="container">
+                    <div class="row">
+                        <!-- JS Basic -->
+                        <div class="col-lg-3">
+                            <div class="card mb-5 mb-lg-0">
+                            <div class="card-body">
+                                <h5 class="card-title text-muted text-uppercase text-center">Basic</h5>
+                                <h6 class="card-price text-center">13<span class="period"> Lesson</span></h6>
+                                <hr>
+                                <ul class="fa-ul">
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>What Is Javascript?</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>First Javascript</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Variables</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Control Flow</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>JS On Our Webpage</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Functions</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Arrays</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Objects</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Facebook 1</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>JS Terminology</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Loops</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Facebook 2</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>JS Keywords</li>
+                                </ul>
+                                <a href="basic.html" class="btn btn-block btn-primary text-uppercase">See</a>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- Document Object Model -->
+                        <div class="col-lg-3">
+                            <div class="card mb-5 mb-lg-0">
+                                <div class="card-body">
+                                    <h5 class="card-title text-muted text-uppercase text-center">DOM</h5>
+                                    <h6 class="card-price text-center">4<span class="period"> Lesson</span></h6>
+                                    <hr>
+                                    <ul class="fa-ul">
+                                        <li><span class="fa-li"><i class="fas fa-check"></i></span>What Is DOM?</li>
+                                        <li><span class="fa-li"><i class="fas fa-check"></i></span>DOM Selectors</li>
+                                        <li><span class="fa-li"><i class="fas fa-check"></i></span>DOM Events</li>
+                                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Background Generator</li>
+                                    </ul>
+                                    <a href="dom.html" class="btn btn-block btn-primary text-uppercase">See</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Advance -->
+                        <div class="col-lg-3">
+                            <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-muted text-uppercase text-center">Advance</h5>
+                                <h6 class="card-price text-center">12<span class="period"> Lesson</span></h6>
+                                <hr>
+                                <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Scope</li>
+                                <li><span class="fa-li"><i class="fas fa-times"></i></span>Ad. Control Flow</li>
+                                <li><span class="fa-li"><i class="fas fa-times"></i></span>ES5 and ES6</li>
+                                <li><span class="fa-li"><i class="fas fa-times"></i></span>Ad. Functions</li>
+                                <li><span class="fa-li"><i class="fas fa-times"></i></span>Ad. Arrays</li>
+                                <li><span class="fa-li"><i class="fas fa-times"></i></span>Ad. Objects</li>
+                                <li><span class="fa-li"><i class="fas fa-times"></i></span>ES7</li>
+                                <li><span class="fa-li"><i class="fas fa-times"></i></span>ES8</li>
+                                <li><span class="fa-li"><i class="fas fa-times"></i></span>Ad. Loops</li>
+                                <li><span class="fa-li"><i class="fas fa-times"></i></span>Debugging</li>
+                                <li><span class="fa-li"><i class="fas fa-times"></i></span>How JS Works</li>
+                                <li><span class="fa-li"><i class="fas fa-times"></i></span>Modules</li>
+                                </ul>
+                                <a href="adv_js.html" class="btn btn-block btn-primary text-uppercase">See</a>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- JQuery -->
+                        <div class="col-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title text-muted text-uppercase text-center">JQuery</h5>
+                                    <h6 class="card-price text-center">&infin;<span class="period"> Lesson</span></h6>
+                                    <hr>
+                                    <ul class="fa-ul">
+                                        <li><span class="fa-li"><i class="fas fa-times"></i></span>Undefined</li>
+                                        <li><span class="fa-li"><i class="fas fa-times"></i></span>Undefined</li>
+                                        <li><span class="fa-li"><i class="fas fa-times"></i></span>Undefined</li>
+                                        <li><span class="fa-li"><i class="fas fa-times"></i></span>Undefined</li>
+                                        <li><span class="fa-li"><i class="fas fa-times"></i></span>Undefined</li>
+                                        <li><span class="fa-li"><i class="fas fa-times"></i></span>Undefined</li>
+                                        <li><span class="fa-li"><i class="fas fa-times"></i></span>Undefined</li>
+                                        <li><span class="fa-li"><i class="fas fa-times"></i></span>Undefined</li>
+                                        <li><span class="fa-li"><i class="fas fa-times"></i></span>Undefined</li>
+                                        <li><span class="fa-li"><i class="fas fa-times"></i></span>Undefined</li>
+                                    </ul>
+                                    <a href="jquery.html" class="btn btn-block btn-primary text-uppercase">Button</a>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <ul class="list-style-none">
+            </section>
 
-                    
-                    <li class="d-flex no-block card-body border-top"> <i class="fa fa-check-circle w-30px m-t-5"></i>
-                        <div> <a href="introduction.html" class="m-b-0 font-medium p-0" data-abc="true">Introduction</a> <span class="text-muted">l1-l#</span> </div>
-                        <div class="ml-auto">
-                            <div class="tetx-right">
-                                <h5 class="text-muted m-b-0">30</h5> <span class="text-muted font-16">DEC</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="d-flex no-block card-body border-top"> <i class="fa fa-check-circle w-30px m-t-5"></i>
-                        <div> <a href="object.html" class="m-b-0 font-medium p-0" data-abc="true">Object</a> <span class="text-muted">l1-l#</span> </div>
-                        <div class="ml-auto">
-                            <div class="tetx-right">
-                                <h5 class="text-muted m-b-0">30</h5> <span class="text-muted font-16">DEC</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="d-flex no-block card-body border-top"> <i class="fa fa-check-circle w-30px m-t-5"></i>
-                        <div> <a href="object.html" class="m-b-0 font-medium p-0" data-abc="true">Datastructure</a> <span class="text-muted">l1-l#</span> </div>
-                        <div class="ml-auto">
-                            <div class="tetx-right">
-                                <h5 class="text-muted m-b-0">30</h5> <span class="text-muted font-16">DEC</span>
-                            </div>
-                        </div>
-                    </li>
 
-                    
-                    <li class="d-flex no-block card-body border-top"> <i class="fa fa-check-circle w-30px m-t-5"></i>
-                        <div> <a href="facebook1.html" class="m-b-0 font-medium p-0" data-abc="true">Facebook One</a> <span class="text-muted">Login System</span> </div>
-                        <div class="ml-auto">
-                            <div class="tetx-right">
-                                <h5 class="text-muted m-b-0">29</h5> <span class="text-muted font-16">DEC</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="d-flex no-block card-body border-top"> <i class="fa fa-check-circle w-30px m-t-5"></i>
-                        <div> <a href="loop.html" class="m-b-0 font-medium p-0" data-abc="true">Loop</a> <span class="text-muted">Login System</span> </div>
-                        <div class="ml-auto">
-                            <div class="tetx-right">
-                                <h5 class="text-muted m-b-0">29</h5> <span class="text-muted font-16">DEC</span>
-                            </div>
-                        </div>
-                    </li>
+        </main>
+        <footer class="fixed-bottom navbar-light bg-light text-center py-2">
+                © 2019-2020 All Rights Reserved  By Sabbir Hussain  
+        </footer>
 
-                   
-                    <li class="d-flex no-block card-body border-top"> <i class="fa fa-check-circle w-30px m-t-5"></i>
-                        <div> <a href="facebook2.html" class="m-b-0 font-medium p-0" data-abc="true">Facebook Two</a> <span class="text-muted">,Terminology </span> </div>
-                        <div class="ml-auto">
-                            <div class="tetx-right">
-                                <h5 class="text-muted m-b-0">18</h5> <span class="text-muted font-16">DEC</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="d-flex no-block card-body border-top"> <i class="fa fa-gift w-30px m-t-5"></i>
-                        <div> <a href="#" class="m-b-0 font-medium p-0" data-abc="true">Lessons 12-15</a> <span class="text-muted">Array</span> </div>
-                        <div class="ml-auto">
-                            <div class="tetx-right">
-                                <h5 class="text-muted m-b-0">17</h5> <span class="text-muted font-16">DEC</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="d-flex no-block card-body border-top"> <i class="fa fa-gift w-30px m-t-5"></i>
-                        <div> <a href="jsterminology.html" class="m-b-0 font-medium p-0" data-abc="true">JS Terminology</a> <span class="text-muted">Array</span> </div>
-                        <div class="ml-auto">
-                            <div class="tetx-right">
-                                <h5 class="text-muted m-b-0">17</h5> <span class="text-muted font-16">DEC</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="d-flex no-block card-body border-top"> <i class="fa fa-gift w-30px m-t-5"></i>
-                        <div> <a href="dom1.html" class="m-b-0 font-medium p-0" data-abc="true">Dom Intruduction</a> <span class="text-muted">Array</span> </div>
-                        <div class="ml-auto">
-                            <div class="tetx-right">
-                                <h5 class="text-muted m-b-0">17</h5> <span class="text-muted font-16">DEC</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="d-flex no-block card-body border-top"> <i class="fa fa-gift w-30px m-t-5"></i>
-                        <div> <a href="dom1.html" class="m-b-0 font-medium p-0" data-abc="true">Dom Intruduction</a> <span class="text-muted">Array</span> </div>
-                        <div class="ml-auto">
-                            <div class="tetx-right">
-                                <h5 class="text-muted m-b-0">17</h5> <span class="text-muted font-16">DEC</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="d-flex no-block card-body border-top"> <i class="fa fa-gift w-30px m-t-5"></i>
-                        <div> <a href="scoop.html" class="m-b-0 font-medium p-0" data-abc="true">Scoop</a> 
-                        <div class="ml-auto">
-                            <div class="tetx-right">
-                                <h5 class="text-muted m-b-0">13</h5> <span class="text-muted font-16">Jan</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="d-flex no-block card-body border-top"> <i class="fa fa-gift w-30px m-t-5"></i>
-                        <div> <a href="advjs3.html" class="m-b-0 font-medium p-0" data-abc="true">Advanced Control Flow</a> 
-                        <div class="ml-auto">
-                            <div class="tetx-right">
-                                <h5 class="text-muted m-b-0">14</h5> <span class="text-muted font-16">Jan</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="d-flex no-block card-body border-top"> <i class="fa fa-gift w-30px m-t-5"></i>
-                        <div> <a href="adv-functions.html" class="m-b-0 font-medium p-0" data-abc="true">Advanced Functions</a> 
-                        <div class="ml-auto">
-                            <div class="tetx-right">
-                                <h5 class="text-muted m-b-0">21</h5> <span class="text-muted font-16">Jan</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="d-flex no-block card-body border-top"> <i class="fa fa-gift w-30px m-t-5"></i>
-                        <div> <a href="adv-array.html" class="m-b-0 font-medium p-0" data-abc="true">Advanced Array</a> 
-                        <div class="ml-auto">
-                            <div class="tetx-right">
-                                <h5 class="text-muted m-b-0">22</h5> <span class="text-muted font-16">Jan</span>
-                            </div>
-                        </div>
-                    </li>
-                    
-                </ul>
-            </div>
-        </div>
-    </div>
 
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 
-    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
-</body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
