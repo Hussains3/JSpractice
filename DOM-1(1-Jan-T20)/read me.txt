@@ -1,0 +1,316 @@
+li.two
+​
+accessKey: ""
+​
+accessKeyLabel: ""
+​
+assignedSlot: null
+​
+attributes: NamedNodeMap [ class="two" ]
+​
+baseURI: "file:///D:/Sabbir%20Hussain/Web%20Development/Practice/Java%20Script/JSpractice/DOM-1(1-Jan-T20)/dom2.html"
+​
+childElementCount: 0
+​
+childNodes: NodeList [ #text
+ ]
+​
+children: HTMLCollection { length: 0 }
+​
+classList: DOMTokenList [ "two" ]
+​
+className: "two"
+​
+clientHeight: 24
+​
+clientLeft: 0
+​
+clientTop: 0
+​
+clientWidth: 470
+​
+contentEditable: "inherit"
+​
+contextMenu: null
+​
+dataset: DOMStringMap(0)
+​
+dir: ""
+​
+draggable: false
+​
+firstChild: #text "Worke Two"
+​
+firstElementChild: null
+​
+hidden: false
+​
+id: ""
+​
+innerHTML: "Worke Two"
+​
+innerText: "Worke Two"
+​
+isConnected: true
+​
+isContentEditable: false
+​
+lang: ""
+​
+lastChild: #text "Worke Two"
+​
+lastElementChild: null
+​
+localName: "li"
+​
+namespaceURI: "http://www.w3.org/1999/xhtml"
+​
+nextElementSibling: <li>​
+nextSibling: #text "
+      "
+​
+nodeName: "LI"
+​
+nodeType: 1
+​
+nodeValue: null
+​
+offsetHeight: 24
+​
+offsetLeft: 0
+​
+offsetParent: <body data-gr-c-s-loaded="true">
+​
+offsetTop: 120
+​
+offsetWidth: 470
+​
+onabort: null
+​
+onanimationcancel: null
+​
+onanimationend: null
+​
+onanimationiteration: null
+​
+onanimationstart: null
+​
+onauxclick: null
+​
+onblur: null
+​
+oncanplay: null
+​
+oncanplaythrough: null
+​
+onchange: null
+​
+onclick: null
+​
+onclose: null
+​
+oncontextmenu: null
+​
+oncopy: null
+​
+oncuechange: null
+​
+oncut: null
+​
+ondblclick: null
+​
+ondrag: null
+​
+ondragend: null
+​
+ondragenter: null
+​
+ondragexit: null
+​
+ondragleave: null
+​
+ondragover: null
+​
+ondragstart: null
+​
+ondrop: null
+​
+ondurationchange: null
+​
+onemptied: null
+​
+onended: null
+​
+onerror: null
+​
+onfocus: null
+​
+onformdata: null
+​
+onfullscreenchange: null
+​
+onfullscreenerror: null
+​
+ongotpointercapture: null
+​
+oninput: null
+​
+oninvalid: null
+​
+onkeydown: null
+​
+onkeypress: null
+​
+onkeyup: null
+​
+onload: null
+​
+onloadeddata: null
+​
+onloadedmetadata: null
+​
+onloadend: null
+​
+onloadstart: null
+​
+onlostpointercapture: null
+​
+onmousedown: null
+​
+onmouseenter: null
+​
+onmouseleave: null
+​
+onmousemove: null
+​
+onmouseout: null
+​
+onmouseover: null
+​
+onmouseup: null
+​
+onmozfullscreenchange: null
+​
+onmozfullscreenerror: null
+​
+onpaste: null
+​
+onpause: null
+​
+onplay: null
+​
+onplaying: null
+​
+onpointercancel: null
+​
+onpointerdown: null
+​
+onpointerenter: null
+​
+onpointerleave: null
+​
+onpointermove: null
+​
+onpointerout: null
+​
+onpointerover: null
+​
+onpointerup: null
+​
+onprogress: null
+​
+onratechange: null
+​
+onreset: null
+​
+onresize: null
+​
+onscroll: null
+​
+onseeked: null
+​
+onseeking: null
+​
+onselect: null
+​
+onselectstart: null
+​
+onshow: null
+​
+onstalled: null
+​
+onsubmit: null
+​
+onsuspend: null
+​
+ontimeupdate: null
+​
+ontoggle: null
+​
+ontransitioncancel: null
+​
+ontransitionend: null
+​
+ontransitionrun: null
+​
+ontransitionstart: null
+​
+onvolumechange: null
+​
+onwaiting: null
+​
+onwebkitanimationend: null
+​
+onwebkitanimationiteration: null
+​
+onwebkitanimationstart: null
+​
+onwebkittransitionend: null
+​
+onwheel: null
+​
+outerHTML: "<li class=\"two\">Worke Two</li>"
+​
+ownerDocument: HTMLDocument file:///D:/Sabbir%20Hussain/Web%20Development/Practice/Java%20Script/JSpractice/DOM-1(1-Jan-T20)/dom2.html
+​
+parentElement: <ul class="list-group">​
+parentNode: <ul class="list-group">​
+part: DOMTokenList []
+​
+prefix: null
+​
+previousElementSibling: <li id="one">​
+previousSibling: #text "
+      "
+​
+scrollHeight: 24
+​
+scrollLeft: 0
+​
+scrollLeftMax: 0
+​
+scrollTop: 0
+​
+scrollTopMax: 0
+​
+scrollWidth: 470
+​
+shadowRoot: null
+​
+slot: ""
+​
+spellcheck: false
+​
+style: CSS2Properties(0)
+​
+tabIndex: -1
+​
+tagName: "LI"
+​
+textContent: "Worke Two"
+​
+title: ""
+​
+type: ""
+​
+value: 0
