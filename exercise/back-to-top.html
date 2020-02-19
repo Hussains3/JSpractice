@@ -93,7 +93,7 @@
             <p>Who would think, then, that such fine ladies and gentlemen should regale themselves with an essence found in the inglorious bowels of a sick whale! Yet so it is. By some, ambergris is supposed to be the cause, and by others the effect, of the dyspepsia in the whale. How to cure such a dyspepsia it were hard to say, unless by administering three or four boat loads of Brandreth's pills, and then running out of harm's way, as laborers do in blasting rocks.</p>
 
         </main>
-        <footer class="fixed-bottom navbar-light bg-light text-center py-2">
+        <footer class="navbar-light bg-light text-center py-2"><!--fixed-bottom -->
            <p><small><em>© 2019-2020 All Rights Reserved  By <a href="https://github.com/Hussains3/">Sabbir Hussain</a>.</em></small></p>
            <a id="back-to-top" href="#"><i class="fas fa-chevron-up"></i></a>
 
@@ -114,12 +114,13 @@
              * - Calculate the document height and set the offset to a .7 of that value
              * - Add the event listeners for scroll and click
              */
-             let btt = document.getElementById('back-to-top'),
-                body = document.body,
-                docElem = document.documentElement,
-                offset = 100,
-                isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1,
-                scrollPos, docHeight;
+            const btt = document.getElementById('back-to-top');
+            let body = document.body;
+            let docElem = document.documentElement;
+            const offset = 100;
+            let isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+            let scrollPos;
+            let docHeight;
 
             // Calculate the document height
             docHeight = Math.max(body.scrollHeight, body.offsetHeight, docElem.clientHeight, docElem.scrollHeight, docElem.offsetHeight);
@@ -129,14 +130,14 @@
             }
 
             // Add scroll event listener
-            window.addEventListener('scroll', function(event) {
+            window.addEventListener('scroll', event => {
                 scrollPos = body.scrollTop || docElem.scrollTop;
 
                 btt.className = (scrollPos > offset) ? 'visible' : '';
             });
 
             // Add click event listener
-            btt.addEventListener('click', function(event) {
+            btt.addEventListener('click', event => {
                 event.preventDefault();
 
                 if (isFirefox) {
